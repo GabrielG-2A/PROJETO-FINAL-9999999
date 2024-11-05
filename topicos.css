@@ -1,0 +1,65 @@
+@import url("NOVO_PROJETO/header.css");
+@import url("NOVO_PROJETO/banner.css");
+@import url("NOVO_PROJETO/carrossel.css");
+@import url("NOVO_PROJETO/topicos.css");
+
+
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+.tópicos_titulo {
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+
+.tópicos_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.tópicos_item {
+    margin: 2em 0,5em;
+    text-decoration: none;
+}
+
+
+.tópicos_link {
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+@import url(NOVO_PROJETO/header.css);
+@import url("styles/header.css");
+@import url("styles/banner.ccs");
+
+*{
+    margin: 1px;
+}
+
+
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(145deg, #fd23ff 0, #ab25ff 25%, #491ef3 50%, #0016c2 75%, #001196 100%);
+    --fonte-principal: "Embed";
+    --azul: #002f52;
+}
+
+
+
+header {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+    padding: 1em;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: white;
+}
+
+
+.cabeçalho_menu-hamburguer {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(Aulabooks/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container_botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu_titulo {
+    color: #eb9b00;
+}
+
+
+
+
+
+
+
+
+.lista-menu_titulo {
+    list-style-type: none
+}
+
+.lista-menu_item {
+    list-style-type: none
+}
+
+
+
+.input.placeholder {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
